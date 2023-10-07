@@ -1,0 +1,219 @@
+.scorewraper{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+
+.Score{
+    width: 500px;
+    height: 600px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Score .score_number{
+    width: 500px;
+    height: 100px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+     
+}
+
+
+.Score .score_number h1{
+    text-align: center;
+
+}
+
+
+
+.Score .score_text{
+    width: 500px;
+    height: 350px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.Score .score_text .score_name{
+    width: 500px;
+    height: 100px;
+    /* background-color: bisque; */
+
+}
+
+
+.Score .score_text .score_name h3{
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+
+
+
+
+.Score .score_end{
+    width: 500px;
+    height: 70px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    display: flex;
+
+}
+
+
+
+.Score .score_end .end_text{
+    width: 50%;
+    height: 70px;
+    /* background-color: darkgray; */
+    text-align: center;
+
+}
+
+
+
+.Score .score_end .end_num{
+    width: 50%;
+    height: 70px;
+    /* background-color: chartreuse; */
+    text-align: center;
+
+}
+
+
+
+.Score .btn{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+.Score .btn button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(20, 141, 189);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+
+/* total_score */
+
+
+
+
+.total_score{
+    width: 500px;
+    height: 600px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.total_score .total_text{
+    width: 500px;
+    height: 100px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+
+}
+
+.total_score .total_text th{
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    padding: 30px;
+
+}
+
+
+
+
+
+.total_score .total_text2{
+    width: 500px;
+    height: auto;
+    background-color: aqua;
+    margin-top: 5px;
+
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #302e2e;
+}
+
+th {
+    background-color: #aeaeae;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+
+
+/* .hide {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+  } */
+
+
+
+
+
+.rightAlign {
+    transform: translateX(150%);
+    transition: transform 1s;
+    
+}
+
+
+table{
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
